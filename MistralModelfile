@@ -1,0 +1,11 @@
+FROM mistral
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0.8
+PARAMETER stop Result
+
+# set the custom system message to specify the behavior of the chat assistant
+
+# Leaving it blank for now
+
+SYSTEM """"""
